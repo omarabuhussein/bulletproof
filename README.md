@@ -3,7 +3,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/samayo/bulletproof/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/samayo/bulletproof/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/samayo/bulletproof/v/stable)](https://packagist.org/packages/samayo/bulletproof) [![License](https://poser.pugx.org/samayo/bulletproof/license)](https://packagist.org/packages/samayo/bulletproof)
 
-Bulletproof is a single-class library to upload images in PHP with a with security.    
+Bulletproof is a single-class library for upload images in PHP with security.    
 
 The previous repo with image watermark, resize, shrink.. features is moved to [`samayo/nautilus`][nautilus]
 
