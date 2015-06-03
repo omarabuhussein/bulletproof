@@ -1,6 +1,7 @@
-## BULLETPROOF [![Build Status](https://travis-ci.org/samayo/bulletproof.svg?branch=master)](https://travis-ci.org/samayo/bulletproof.svg?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/bullet-proof/image-uploader/v/stable.svg)](https://packagist.org/packages/bullet-proof/image-uploader) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/samayo/bulletproof/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/samayo/bulletproof/?branch=master)
+## BULLETPROOF [![Build Status](https://scrutinizer-ci.com/g/samayo/bulletproof/badges/build.png?b=master)](https://scrutinizer-ci.com/g/samayo/bulletproof/build-status/master)
 =======================================
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/samayo/bulletproof/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/samayo/bulletproof/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/samayo/bulletproof/v/stable)](https://packagist.org/packages/samayo/bulletproof) [![License](https://poser.pugx.org/samayo/bulletproof/license)](https://packagist.org/packages/samayo/bulletproof)
 
 Bulletproof is a single-class library to upload images in PHP with a with security.    
 
@@ -43,7 +44,7 @@ if($image["ikea"])
 	if($image->upload()){
 		// OK
 	}else{
-		// ERR!
+	   echo $image["error"];
 	}
 }
 ````
